@@ -14,6 +14,9 @@ import org.springframework.context.annotation.Profile;
 public class DevConfig {
 
     private static final Logger LOGGER = LogManager.getLogger();
+
+    @Autowired
+    private DataBaseService dataBaseService;
     @Value("${spring.jpa.hibernate.ddl-auto}")
     private String dbStrategy;
 
@@ -22,7 +25,7 @@ public class DevConfig {
     public Boolean instantiateDatabase(){
         if (dbStrategy.equals("create")){
             LOGGER.info("Iniciando criação e populando banco de dados: ");
-            DataBaseService.initiateDataBase();
+            dataBaseService.initiateDataBase();
         } else {
             LOGGER.info("Banco de dados já foi populado");
         }
