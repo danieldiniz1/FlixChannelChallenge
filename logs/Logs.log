@@ -33,3 +33,531 @@
 [2022-10-28T10:55:36.036Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 [2022-10-28T10:55:36.036Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
 [2022-10-28T10:55:36.036Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:30:35.035Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:30:35.035Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 69516 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:30:35.035Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:30:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:30:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:30:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:30:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:30:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:30:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:30:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:30:37.037Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2872 ms
+[2022-10-28T14:30:38.038Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:30:38.038Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:30:38.038Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:30:38.038Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:30:38.038Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:30:39.039Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:30:39.039Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:30:39.039Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:30:39.039Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:30:40.040Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:30:40.040Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:30:41.041Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:30:41.041Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:30:41.041Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 6.737 seconds (JVM running for 7.523)
+[2022-10-28T14:30:45.045Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:30:45.045Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:30:45.045Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 0 ms
+[2022-10-28T14:35:16.016Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-9] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'tittle': rejected value [null]; codes [NotBlank.createVideoForm.tittle,NotBlank.tittle,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.tittle,tittle]; arguments []; default message [tittle]]; default message [tittle cannot be null]] ]
+[2022-10-28T14:35:42.042Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:35:42.042Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:35:42.042Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:35:42.042Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:35:47.047Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 67380 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:35:47.047Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:35:47.047Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:35:48.048Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:35:48.048Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:35:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:35:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:35:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:35:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:35:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:35:49.049Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2529 ms
+[2022-10-28T14:35:49.049Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:35:49.049Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:35:49.049Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:35:50.050Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:35:50.050Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:35:50.050Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:35:50.050Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:35:51.051Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:35:51.051Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:35:51.051Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:35:51.051Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:35:52.052Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:35:52.052Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:35:52.052Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.838 seconds (JVM running for 6.608)
+[2022-10-28T14:35:56.056Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:35:56.056Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:35:56.056Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 3 ms
+[2022-10-28T14:35:56.056Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [Video de teste de post]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@7189696e,[A-z][a-z]]; default message [deve corresponder a "[A-z][a-z]"]] ]
+[2022-10-28T14:36:52.052Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-5] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [Video]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@7189696e,[A-z][a-z]]; default message [deve corresponder a "[A-z][a-z]"]] ]
+[2022-10-28T14:36:59.059Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-6] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@7189696e,[A-z][a-z]]; default message [deve corresponder a "[A-z][a-z]"]] ]
+[2022-10-28T14:37:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:37:53.053Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:37:53.053Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:37:53.053Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:37:58.058Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:37:58.058Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 58400 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:37:58.058Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:37:58.058Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:37:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:37:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:38:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:38:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:38:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:38:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:38:00.000Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2319 ms
+[2022-10-28T14:38:00.000Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:38:00.000Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:38:00.000Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:38:00.000Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:38:01.001Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:38:01.001Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:38:01.001Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:38:02.002Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:38:02.002Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:38:02.002Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:38:02.002Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:38:02.002Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:38:02.002Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:38:02.002Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.482 seconds (JVM running for 6.223)
+[2022-10-28T14:38:05.005Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:38:05.005Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:38:05.005Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:38:06.006Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-2] [23] [INFO ] The video has been create with title name: video
+[2022-10-28T14:38:13.013Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video de teste]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@3e12dc85,[A-z][a-z]*]; default message [deve corresponder a "[A-z][a-z]*"]] ]
+[2022-10-28T14:39:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:39:08.008Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:39:09.009Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:39:09.009Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:39:12.012Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:39:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 26688 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:39:12.012Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:39:13.013Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:39:14.014Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:39:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:39:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:39:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:39:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:39:15.015Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:39:15.015Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2246 ms
+[2022-10-28T14:39:15.015Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:39:15.015Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:39:15.015Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:39:15.015Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:39:15.015Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:39:16.016Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:39:16.016Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:39:16.016Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:39:16.016Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:39:17.017Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:39:17.017Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:39:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:39:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:39:17.017Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.37 seconds (JVM running for 6.069)
+[2022-10-28T14:39:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-4] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:39:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-4] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:39:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-4] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:39:23.023Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video de teste]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@757dd939,[A-z][a-z]* ?]; default message [deve corresponder a "[A-z][a-z]* ?"]] ]
+[2022-10-28T14:40:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:40:08.008Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:40:08.008Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:40:08.008Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:40:11.011Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 31884 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:40:11.011Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:40:11.011Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:40:12.012Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:40:12.012Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:40:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:40:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:40:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:40:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:40:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:40:13.013Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2089 ms
+[2022-10-28T14:40:14.014Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:40:14.014Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:40:14.014Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:40:14.014Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:40:14.014Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:40:14.014Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:40:14.014Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:40:15.015Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:40:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:40:16.016Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:40:16.016Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:40:16.016Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:40:16.016Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:40:16.016Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.189 seconds (JVM running for 5.843)
+[2022-10-28T14:40:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:40:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:40:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:40:23.023Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video de teste]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@6ce7e74b,[A-z][a-z] *]; default message [deve corresponder a "[A-z][a-z] *"]] ]
+[2022-10-28T14:40:51.051Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:40:51.051Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:40:51.051Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:40:51.051Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:40:54.054Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:40:54.054Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 21460 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:40:54.054Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:40:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:40:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:40:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:40:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:40:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:40:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:40:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:40:56.056Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2250 ms
+[2022-10-28T14:40:56.056Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:40:56.056Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:40:56.056Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:40:56.056Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:40:57.057Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:40:57.057Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:40:57.057Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:40:58.058Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:40:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:40:58.058Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:40:58.058Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:40:58.058Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:40:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:40:59.059Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.397 seconds (JVM running for 6.18)
+[2022-10-28T14:41:01.001Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-3] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:41:01.001Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:41:01.001Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:41:01.001Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video de teste]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@6cf179e8,[A-z][a-z] *]; default message [deve corresponder a "[A-z][a-z] *"]] ]
+[2022-10-28T14:47:39.039Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:47:39.039Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:47:39.039Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:47:39.039Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:47:44.044Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:47:44.044Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 59104 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:47:44.044Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:47:45.045Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:47:45.045Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:47:46.046Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:47:46.046Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:47:46.046Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:47:46.046Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:47:46.046Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:47:46.046Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2302 ms
+[2022-10-28T14:47:47.047Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:47:47.047Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:47:47.047Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:47:47.047Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:47:47.047Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:47:47.047Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:47:48.048Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:47:48.048Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:47:48.048Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:47:49.049Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:47:49.049Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:47:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:47:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:47:49.049Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.834 seconds (JVM running for 6.658)
+[2022-10-28T14:47:53.053Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:47:53.053Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:47:53.053Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2022-10-28T14:47:54.054Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video de teste]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@195feb99,[A-z a-z]* ]; default message [deve corresponder a "[A-z a-z]* "]] ]
+[2022-10-28T14:50:11.011Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:50:11.011Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:50:11.011Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:50:11.011Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:50:15.015Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:50:15.015Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 57500 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:50:15.015Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:50:16.016Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:50:16.016Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:50:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:50:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:50:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:50:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:50:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:50:17.017Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2347 ms
+[2022-10-28T14:50:17.017Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:50:17.017Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:50:17.017Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:50:18.018Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:50:18.018Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:50:18.018Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:50:18.018Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:50:19.019Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:50:19.019Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:50:19.019Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:50:19.019Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:50:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:50:20.020Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:50:20.020Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.551 seconds (JVM running for 6.28)
+[2022-10-28T14:50:27.027Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:50:27.027Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:50:27.027Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:50:28.028Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video de teste]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@3c4f0c4d,[A-z a-z]]; default message [deve corresponder a "[A-z a-z]"]] ]
+[2022-10-28T14:50:39.039Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [video]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@3c4f0c4d,[A-z a-z]]; default message [deve corresponder a "[A-z a-z]"]] ]
+[2022-10-28T14:50:50.050Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:50:50.050Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:50:50.050Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:50:50.050Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:50:54.054Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:50:54.054Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 57024 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:50:54.054Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:50:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:50:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:50:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:50:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:50:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:50:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:50:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:50:56.056Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2228 ms
+[2022-10-28T14:50:56.056Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:50:56.056Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:50:56.056Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:50:57.057Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:50:57.057Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:50:57.057Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:50:57.057Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:50:58.058Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:50:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:50:58.058Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:50:58.058Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:50:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:50:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:50:59.059Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.387 seconds (JVM running for 6.104)
+[2022-10-28T14:51:00.000Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:51:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:51:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 0 ms
+[2022-10-28T14:51:00.000Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-2] [23] [INFO ] The video has been create with title name: video
+[2022-10-28T14:51:06.006Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-3] [23] [INFO ] The video has been create with title name: video e
+[2022-10-28T14:51:17.017Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-4] [23] [INFO ] The video has been create with title name: video de teste
+[2022-10-28T14:51:41.041Z] [br.com.videos.flixchannel.controller.VideoController] [http-nio-8080-exec-7] [35] [INFO ] Iniciando busca por todos os videos
+[2022-10-28T14:51:41.041Z] [br.com.videos.flixchannel.service.impl.DefaultVideoService] [http-nio-8080-exec-7] [35] [INFO ] Service ativado para buscar todos os videos
+[2022-10-28T14:52:08.008Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-8] [208] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity br.com.videos.flixchannel.controller.VideoController.createVideo(br.com.videos.flixchannel.controller.form.CreateVideoForm): [Field error in object 'createVideoForm' on field 'title': rejected value [123]; codes [Pattern.createVideoForm.title,Pattern.title,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createVideoForm.title,title]; arguments []; default message [title],[Ljavax.validation.constraints.Pattern$Flag;@48e601c4,[A-z a-z]*]; default message [deve corresponder a "[A-z a-z]*"]] ]
+[2022-10-28T14:53:35.035Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-10] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T14:53:57.057Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:53:57.057Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:53:57.057Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:53:57.057Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:54:02.002Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 68708 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:54:02.002Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:54:02.002Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:54:03.003Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:54:04.004Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:54:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:54:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:54:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:54:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:54:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:54:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2514 ms
+[2022-10-28T14:54:05.005Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:54:05.005Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:54:05.005Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:54:05.005Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:54:06.006Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:54:06.006Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:54:06.006Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:54:07.007Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:54:07.007Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:54:07.007Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:54:08.008Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:54:08.008Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:54:08.008Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:54:08.008Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 7.268 seconds (JVM running for 8.854)
+[2022-10-28T14:54:25.025Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-4] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:54:25.025Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-4] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:54:25.025Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-4] [547] [INFO ] Completed initialization in 2 ms
+[2022-10-28T14:54:26.026Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-4] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T14:55:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:55:08.008Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:55:08.008Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:55:08.008Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:55:08.008Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:55:08.008Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:55:08.008Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [SpringApplicationShutdownHook] [222] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+[2022-10-28T14:55:08.008Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:55:08.008Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:55:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 49828 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:55:12.012Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:55:12.012Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:55:13.013Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:55:13.013Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:55:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:55:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:55:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:55:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:55:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:55:14.014Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2421 ms
+[2022-10-28T14:55:14.014Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:55:15.015Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:55:15.015Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:55:15.015Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:55:15.015Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:55:15.015Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:55:15.015Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:55:16.016Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:55:16.016Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:55:17.017Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:55:17.017Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:55:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:55:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:55:17.017Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 6.077 seconds (JVM running for 7.039)
+[2022-10-28T14:55:20.020Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:55:20.020Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:55:20.020Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:55:21.021Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-1] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T14:56:15.015Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m404ms812µs200ns).
+[2022-10-28T14:56:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:56:15.015Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:56:15.015Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:56:15.015Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:56:15.015Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:56:15.015Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:56:15.015Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [SpringApplicationShutdownHook] [222] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+[2022-10-28T14:56:15.015Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:56:15.015Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:56:21.021Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:56:21.021Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 68544 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:56:21.021Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:56:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:56:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:56:23.023Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:56:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:56:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:56:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:56:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:56:24.024Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2556 ms
+[2022-10-28T14:56:24.024Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:56:24.024Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:56:24.024Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:56:24.024Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:56:24.024Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:56:25.025Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:56:25.025Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:56:26.026Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:56:26.026Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:56:26.026Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:56:26.026Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:56:27.027Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:56:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:56:27.027Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 6.34 seconds (JVM running for 7.496)
+[2022-10-28T14:56:31.031Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:56:31.031Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:56:31.031Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:56:32.032Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-1] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T14:57:13.013Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s63ms401µs100ns).
+[2022-10-28T14:57:13.013Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:57:13.013Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:57:13.013Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:57:13.013Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:57:13.013Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:57:13.013Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:57:13.013Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [SpringApplicationShutdownHook] [222] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+[2022-10-28T14:57:13.013Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:57:13.013Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:57:18.018Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:57:18.018Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 19508 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:57:18.018Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:57:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:57:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:57:20.020Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:57:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:57:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:57:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:57:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:57:20.020Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2383 ms
+[2022-10-28T14:57:20.020Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:57:20.020Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:57:20.020Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:57:21.021Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:57:21.021Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:57:21.021Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:57:21.021Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:57:22.022Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:57:22.022Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:57:23.023Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:57:23.023Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:57:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:57:23.023Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:57:23.023Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 6.051 seconds (JVM running for 7.002)
+[2022-10-28T14:57:27.027Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:57:27.027Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:57:27.027Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:57:27.027Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-1] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T14:57:59.059Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:57:59.059Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T14:57:59.059Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:57:59.059Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:57:59.059Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [137] [WARN ] SQL Error: 90121, SQLState: 90121
+[2022-10-28T14:57:59.059Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [SpringApplicationShutdownHook] [142] [ERROR] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+[2022-10-28T14:57:59.059Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [SpringApplicationShutdownHook] [222] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+[2022-10-28T14:57:59.059Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T14:57:59.059Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T14:58:04.004Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T14:58:04.004Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 55664 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T14:58:04.004Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T14:58:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T14:58:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interfaces.
+[2022-10-28T14:58:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T14:58:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:58:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T14:58:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T14:58:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T14:58:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2836 ms
+[2022-10-28T14:58:07.007Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T14:58:07.007Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T14:58:07.007Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T14:58:08.008Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T14:58:08.008Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T14:58:08.008Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T14:58:08.008Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T14:58:09.009Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T14:58:09.009Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T14:58:10.010Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T14:58:10.010Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T14:58:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T14:58:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T14:58:10.010Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 6.719 seconds (JVM running for 7.75)
+[2022-10-28T14:58:13.013Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-3] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T14:58:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T14:58:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3] [547] [INFO ] Completed initialization in 1 ms
+[2022-10-28T14:58:13.013Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-3] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T14:59:07.007Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s574ms922µs300ns).
+[2022-10-28T15:00:50.050Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T15:00:50.050Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T15:00:50.050Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T15:00:50.050Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2022-10-28T15:00:54.054Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.5.Final
+[2022-10-28T15:00:54.054Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting FlixchannelApplication using Java 17.0.1 on DINIZ with PID 58864 (C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel\target\classes started by danie in C:\Users\danie\Documents\Daniel_Diniz\java\Alura\Challenges-Backend\videos\flixchannel (1)\flixchannel)
+[2022-10-28T15:00:54.054Z] [org.springframework.boot.SpringApplication] [main] [640] [INFO ] The following 1 profile is active: "test"
+[2022-10-28T15:00:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-28T15:00:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+[2022-10-28T15:00:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2022-10-28T15:00:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-10-28T15:00:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2022-10-28T15:00:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-10-28T15:00:57.057Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-10-28T15:00:57.057Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2300 ms
+[2022-10-28T15:00:57.057Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2022-10-28T15:00:57.057Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2022-10-28T15:00:57.057Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [main] [98] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2022-10-28T15:00:57.057Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-10-28T15:00:57.057Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-10-28T15:00:58.058Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-10-28T15:00:58.058Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2022-10-28T15:00:58.058Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-10-28T15:00:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T15:00:59.059Z] [br.com.videos.flixchannel.config.TestConfig] [main] [23] [INFO ] O Banco de dados foi populado com sucesso!
+[2022-10-28T15:00:59.059Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-10-28T15:00:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2022-10-28T15:00:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-10-28T15:00:59.059Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started FlixchannelApplication in 5.682 seconds (JVM running for 6.409)
+[2022-10-28T15:01:07.007Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-10-28T15:01:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-10-28T15:01:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2022-10-28T15:01:07.007Z] [br.com.videos.flixchannel.populator.impl.VideoReversePopulator] [http-nio-8080-exec-1] [23] [INFO ] The video has been create with title name: teste de cadastro
+[2022-10-28T15:01:39.039Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringApplicationShutdownHook] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-28T15:01:39.039Z] [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] [SpringApplicationShutdownHook] [538] [INFO ] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2022-10-28T15:01:39.039Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2022-10-28T15:01:39.039Z] [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.

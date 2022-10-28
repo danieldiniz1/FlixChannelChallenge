@@ -74,4 +74,6 @@ public class Video {
     public static Video valueOf(String titulo, String descricao, String url){
         return new Video(titulo,descricao,url);
     }
+
+    public static Video VideoEmpty(){return new Video();}
 }

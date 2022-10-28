@@ -1,6 +1,8 @@
 package br.com.videos.flixchannel.controller;
 
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
+import br.com.videos.flixchannel.controller.form.CreateVideoForm;
+import br.com.videos.flixchannel.model.Video;
 import br.com.videos.flixchannel.service.VideoService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,7 +11,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import javax.validation.Valid;
+import java.net.URI;
 import java.time.LocalDateTime;
 
 
@@ -35,5 +40,14 @@ public class VideoController {
     @GetMapping("/{id}")
     public ResponseEntity<VideoDTO> getVideoById(@PathVariable Long id){
         return ResponseEntity.status(HttpStatus.OK).body(videoService.getVideoById(id));
+    }
+
+    @PostMapping
+    public ResponseEntity createVideo(@RequestBody @Valid CreateVideoForm form){
+        String id = videoService.createVideo(form);
+        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
+                .buildAndExpand(id.toString())
+                .toUri();
+        return ResponseEntity.created(uri).body(getVideoById(Long.parseLong(id)));
     }
 }

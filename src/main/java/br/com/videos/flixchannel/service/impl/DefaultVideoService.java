@@ -1,6 +1,7 @@
 package br.com.videos.flixchannel.service.impl;
 
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
+import br.com.videos.flixchannel.controller.form.CreateVideoForm;
 import br.com.videos.flixchannel.exception.ObjectNotFoundException;
 import br.com.videos.flixchannel.model.Video;
 import br.com.videos.flixchannel.populator.Populator;
@@ -22,8 +23,13 @@ public class DefaultVideoService implements VideoService {
     @Autowired
     private Populator<Video,VideoDTO> videoDTOPopulator;
 
+
+    @Autowired()
+    private Populator<CreateVideoForm,Video> videoPopulator;
+
     @Autowired
     private VideoRepository videoRepository;
+
     @Override
     public Page<VideoDTO> getAllVideos(Integer page, Integer linesPerPage, String orderBy, String direction) {
         LOGGER.info("Service ativado para buscar todos os videos");
@@ -38,10 +44,17 @@ public class DefaultVideoService implements VideoService {
 
     @Override
     public VideoDTO getVideoById(Long id) {
-        return converterToDTO(videoRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException("The video is not found!")));
+        return converterToVideoDTO(videoRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException("The video is not found!")));
     }
 
-    private VideoDTO converterToDTO(Video video) {
+    @Override
+    public String createVideo(CreateVideoForm form) {
+        Video video = Video.VideoEmpty();
+        videoPopulator.populate(form,video);
+        return videoRepository.save(video).getId().toString();
+    }
+
+    private VideoDTO converterToVideoDTO(Video video) {
         VideoDTO videoDTO = VideoDTO.VideoDTOEmptyToPopulate();
         videoDTOPopulator.populate(video,videoDTO);
         return videoDTO;

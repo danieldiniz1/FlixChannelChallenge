@@ -1,7 +1,8 @@
-package br.com.videos.flixchannel.populator;
+package br.com.videos.flixchannel.populator.impl;
 
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
 import br.com.videos.flixchannel.model.Video;
+import br.com.videos.flixchannel.populator.Populator;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
