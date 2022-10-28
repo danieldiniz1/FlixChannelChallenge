@@ -2,6 +2,7 @@ package br.com.videos.flixchannel.controller;
 
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
 import br.com.videos.flixchannel.controller.form.CreateVideoForm;
+import br.com.videos.flixchannel.controller.form.UpdatedVideoForm;
 import br.com.videos.flixchannel.model.Video;
 import br.com.videos.flixchannel.service.VideoService;
 import org.apache.logging.log4j.LogManager;
@@ -49,5 +50,10 @@ public class VideoController {
                 .buildAndExpand(id.toString())
                 .toUri();
         return ResponseEntity.created(uri).body(getVideoById(Long.parseLong(id)));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity updateVideo(@RequestBody @Valid UpdatedVideoForm form, @PathVariable Long id){
+        return ResponseEntity.ok(videoService.updateVideo(form,id));
     }
 }

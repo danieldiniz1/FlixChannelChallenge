@@ -2,7 +2,7 @@ package br.com.videos.flixchannel.service;
 
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
 import br.com.videos.flixchannel.controller.form.CreateVideoForm;
-import br.com.videos.flixchannel.model.Video;
+import br.com.videos.flixchannel.controller.form.UpdatedVideoForm;
 import org.springframework.data.domain.Page;
 
 
@@ -12,4 +12,6 @@ public interface VideoService {
     VideoDTO getVideoById(Long id);
 
     String createVideo(CreateVideoForm form);
+
+    VideoDTO updateVideo(UpdatedVideoForm form, Long id);
 }

@@ -1,8 +1,8 @@
-package br.com.videos.flixchannel.populator.impl;
+package br.com.videos.flixchannel.config.populator.impl;
 
 import br.com.videos.flixchannel.controller.form.CreateVideoForm;
 import br.com.videos.flixchannel.model.Video;
-import br.com.videos.flixchannel.populator.Populator;
+import br.com.videos.flixchannel.config.populator.Populator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;

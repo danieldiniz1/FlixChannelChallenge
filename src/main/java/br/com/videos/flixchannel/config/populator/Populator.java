@@ -1,4 +1,4 @@
-package br.com.videos.flixchannel.populator;
+package br.com.videos.flixchannel.config.populator;
 
 public interface Populator<SOURCE,TARGET> {
 

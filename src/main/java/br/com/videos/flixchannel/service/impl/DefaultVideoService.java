@@ -2,9 +2,10 @@ package br.com.videos.flixchannel.service.impl;
 
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
 import br.com.videos.flixchannel.controller.form.CreateVideoForm;
+import br.com.videos.flixchannel.controller.form.UpdatedVideoForm;
 import br.com.videos.flixchannel.exception.ObjectNotFoundException;
 import br.com.videos.flixchannel.model.Video;
-import br.com.videos.flixchannel.populator.Populator;
+import br.com.videos.flixchannel.config.populator.Populator;
 import br.com.videos.flixchannel.repository.VideoRepository;
 import br.com.videos.flixchannel.service.VideoService;
 import org.apache.logging.log4j.LogManager;
@@ -19,6 +20,8 @@ import org.springframework.stereotype.Service;
 public class DefaultVideoService implements VideoService {
 
     private static final Logger LOGGER = LogManager.getLogger();
+
+    private final String VIDEO_NOT_FOUND = "The video is not found!";
 
     @Autowired
     private Populator<Video,VideoDTO> videoDTOPopulator;
@@ -44,7 +47,7 @@ public class DefaultVideoService implements VideoService {
 
     @Override
     public VideoDTO getVideoById(Long id) {
-        return converterToVideoDTO(videoRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException("The video is not found!")));
+        return converterToVideoDTO(videoRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException(VIDEO_NOT_FOUND)));
     }
 
     @Override
@@ -52,6 +55,20 @@ public class DefaultVideoService implements VideoService {
         Video video = Video.VideoEmpty();
         videoPopulator.populate(form,video);
         return videoRepository.save(video).getId().toString();
+    }
+
+    @Override
+    public VideoDTO updateVideo(UpdatedVideoForm form, Long id) {
+        Video videoToUpdate = videoRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException(VIDEO_NOT_FOUND));
+        updatingVideo(form, videoToUpdate);
+        videoRepository.save(videoToUpdate);
+        return converterToVideoDTO(videoToUpdate);
+    }
+
+    private void updatingVideo(UpdatedVideoForm form, Video videoToUpdate) {
+        videoToUpdate.setTitulo(form.getTitle());
+        videoToUpdate.setDescricao(form.getDescription());
+        videoToUpdate.setUrl(form.getUrl());
     }
 
     private VideoDTO converterToVideoDTO(Video video) {
