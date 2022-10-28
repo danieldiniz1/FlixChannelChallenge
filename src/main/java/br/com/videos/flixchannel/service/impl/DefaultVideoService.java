@@ -3,6 +3,7 @@ package br.com.videos.flixchannel.service.impl;
 import br.com.videos.flixchannel.controller.dto.VideoDTO;
 import br.com.videos.flixchannel.exception.ObjectNotFoundException;
 import br.com.videos.flixchannel.model.Video;
+import br.com.videos.flixchannel.populator.Populator;
 import br.com.videos.flixchannel.repository.VideoRepository;
 import br.com.videos.flixchannel.service.VideoService;
 import org.apache.logging.log4j.LogManager;
@@ -13,12 +14,13 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class DefaultVideoService implements VideoService {
 
     private static final Logger LOGGER = LogManager.getLogger();
+
+    @Autowired
+    private Populator<Video,VideoDTO> videoDTOPopulator;
 
     @Autowired
     private VideoRepository videoRepository;
@@ -32,5 +34,16 @@ public class DefaultVideoService implements VideoService {
         videos.forEach(System.out::println);
         Page<VideoDTO> videosDTO = videos.map((video) -> VideoDTO.valueOf(video));
         return videosDTO;
+    }
+
+    @Override
+    public VideoDTO getVideoById(Long id) {
+        return converterToDTO(videoRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException("The video is not found!")));
+    }
+
+    private VideoDTO converterToDTO(Video video) {
+        VideoDTO videoDTO = VideoDTO.VideoDTOEmptyToPopulate();
+        videoDTOPopulator.populate(video,videoDTO);
+        return videoDTO;
     }
 }

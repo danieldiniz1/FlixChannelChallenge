@@ -44,4 +44,8 @@ public class VideoDTO {
     public static VideoDTO valueOf(Video video){
         return new VideoDTO(video.getDescricao(), video.getTitulo(), video.getUrl());
     }
+
+    public static VideoDTO VideoDTOEmptyToPopulate(){
+        return new VideoDTO();
+    }
 }

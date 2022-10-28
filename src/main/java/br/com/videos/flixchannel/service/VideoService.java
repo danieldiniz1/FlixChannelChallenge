@@ -6,4 +6,6 @@ import org.springframework.data.domain.Page;
 
 public interface VideoService {
     Page<VideoDTO> getAllVideos(Integer page, Integer linesPerPage, String orderBy, String direction);
+
+    VideoDTO getVideoById(Long id);
 }
