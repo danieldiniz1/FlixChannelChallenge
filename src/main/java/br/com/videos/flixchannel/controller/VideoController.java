@@ -56,4 +56,10 @@ public class VideoController {
     public ResponseEntity updateVideo(@RequestBody @Valid UpdatedVideoForm form, @PathVariable Long id){
         return ResponseEntity.ok(videoService.updateVideo(form,id));
     }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity updateVideo(@PathVariable Long id){
+        videoService.deleteVideo(id);
+        return ResponseEntity.ok().build();
+    }
 }

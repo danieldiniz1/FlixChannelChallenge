@@ -11,6 +11,7 @@ import br.com.videos.flixchannel.service.VideoService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -63,6 +64,15 @@ public class DefaultVideoService implements VideoService {
         updatingVideo(form, videoToUpdate);
         videoRepository.save(videoToUpdate);
         return converterToVideoDTO(videoToUpdate);
+    }
+
+    @Override
+    public void deleteVideo(Long id) {
+        try {
+            videoRepository.deleteById(id);
+        } catch (EmptyResultDataAccessException e){
+            throw new ObjectNotFoundException(VIDEO_NOT_FOUND);
+        }
     }
 
     private void updatingVideo(UpdatedVideoForm form, Video videoToUpdate) {

@@ -14,4 +14,6 @@ public interface VideoService {
     String createVideo(CreateVideoForm form);
 
     VideoDTO updateVideo(UpdatedVideoForm form, Long id);
+
+    void deleteVideo(Long id);
 }
