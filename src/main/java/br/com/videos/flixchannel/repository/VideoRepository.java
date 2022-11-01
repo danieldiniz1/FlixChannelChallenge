@@ -1,0 +1,9 @@
+package br.com.videos.flixchannel.repository;
+
+import br.com.videos.flixchannel.model.Video;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface VideoRepository extends JpaRepository<Video,Long> {
+}
