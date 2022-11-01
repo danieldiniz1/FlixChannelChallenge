@@ -11,9 +11,9 @@ public class Video {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = FIELDNAME + "titulo")
+    @Column(name = FIELDNAME + "title")
     private String titulo;
-    @Column(name = FIELDNAME + "descricao")
+    @Column(name = FIELDNAME + "description")
     private String descricao;
     @Column(name = FIELDNAME + "url")
     private String url;
